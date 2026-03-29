@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CAMINANTE PRO</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+
+        <div id="score">0</div>
+
+        <canvas id="game" width="375" height="375"></canvas>
+
+        <div id="introduction">
+            Mantén presionado para jugar. 
+        </div>
+
+        <div id="perfect">DOUBLE SCORE</div>
+
+        <div id="gameOver" style="display:none; font-size:30px; color:rgb(250, 32, 3);">
+             GAME OVER 
+        </div>
+
+        <button id="restart">RESTART</button>
+
+        <audio id="loseSound" src="lose.mp3"></audio>
+        <audio id="winSound" src="win.mp3"></audio>
+
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
